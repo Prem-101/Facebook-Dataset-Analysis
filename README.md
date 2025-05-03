@@ -42,40 +42,6 @@ pip install -r requirements.txt
 
 3. Place your Facebook_Marketplace_data.csv in the project root directory
 
-## Setting up Git Repository
-
-1. Initialize Git repository locally:
-```bash
-git init
-git add .
-git commit -m "Initial commit: Facebook Dataset Analysis Project"
-```
-
-2. Create a new repository on GitHub:
-   - Go to https://github.com/new
-   - Name your repository (e.g., Facebook-Dataset-Analysis)
-   - Leave it empty (don't add README, license, or .gitignore)
-
-3. Link and push to GitHub (if you get a push error, use method A or B):
-```bash
-git remote add origin https://github.com/YourUsername/Facebook-Dataset-Analysis.git
-git branch -M main
-```
-
-Method A (if remote is empty):
-```bash
-git push -u origin main
-```
-
-Method B (if remote has existing files):
-```bash
-git pull origin main --allow-unrelated-histories
-# Fix any merge conflicts if they appear
-git push -u origin main
-```
-
-Replace `YourUsername` with your GitHub username.
-
 ## Usage
 
 1. Core Analysis:

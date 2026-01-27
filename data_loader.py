@@ -27,6 +27,7 @@ def prepare_clustering_data(df):
     
     data = df[features].copy()
     
+    # Declaring Column Transformer
     preprocessor = ColumnTransformer(
         transformers=[
             ('cat', OneHotEncoder(drop='first', sparse_output=False), ['status_type']),
